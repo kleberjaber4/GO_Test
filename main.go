@@ -60,5 +60,4 @@ func main() {
 		fmt.Printf("U heeft helaas geen toegang tot het parkeerterrein")
 	}
 
-	//test
 }
