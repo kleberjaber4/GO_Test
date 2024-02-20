@@ -33,7 +33,7 @@ func main() {
 	fmt.Print("Voer uw kenteken in: ")
 	fmt.Scanln(&licensePlate)
 	formattedInput := formatLicensePlate(licensePlate)
- 
+
 	licensePlate = strings.ToUpper(formattedInput)
 	fmt.Println("Uw ingevulde kenteken:", licensePlate)
 
@@ -60,4 +60,5 @@ func main() {
 		fmt.Printf("U heeft helaas geen toegang tot het parkeerterrein")
 	}
 
+	//test
 }
